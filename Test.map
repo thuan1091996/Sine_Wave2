@@ -1,0 +1,30 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+Freq                                                              0x0160       4
+Duty_INC_flag                                                     0x0164       2
+Duty_DEC_flag                                                     0x0166       2
+tick_duty_inc                                                     0x0168       2
+tick_duty_dec                                                     0x016A       2
+tick_freq_inc                                                     0x016C       2
+tick_freq_dec                                                     0x016E       2
+Duty                                                              0x0170       2
+T_delay                                                           0x0172       2
+Chuoi                                                             0x0174      16
+_base_y                                                           0x0184       4
+_lcd_x                                                            0x0188       1
+_lcd_y                                                            0x0189       1
+_lcd_maxx                                                         0x018A       1
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+LoadA                                                             R4,R5        2
+LoadB                                                             R6,R7        2
+Freq_load                                                         R8,R9        2
+Freq_INC_flag                                                     R10,R11      2
+Freq_DEC_flag                                                     R12,R13      2
